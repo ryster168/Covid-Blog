@@ -1,0 +1,70 @@
+<link rel=“stylesheets” href=“index.html”>
+{
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif
+  margin 0;
+}
+
+p {
+  font-family: serif;
+}
+
+.header {
+  background: #32a84a;
+  text-align: center;
+  padding: 15px;
+  color: #000000;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  background: #333;
+  overflow: hidden;
+}
+
+.navbar a.right{
+  float: right;
+}
+
+.navbar a:hover {
+  background: #ddd;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap:
+}
+
+.side {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 30%;
+  -ms-flex; 30%
+}
+.main {
+    flex: 70%;
+  -ms-flex; 70%
+  background-color: white;
+  padding: 25px;
+  font-family: Apple Chancery, cursive;
+}
+.footer {
+  padding: 15px;
+  text-align: center;
+  background: #ddd;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  display: block;
+  float: left;
+  text-decoration: none;
+}
